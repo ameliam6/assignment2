@@ -1,0 +1,71 @@
+Git Lab Tutorials:
+
+"Learn Git Branching"
+1. Main-Introduction Sequence completed: 02/21/24
+2. Remotes-Push & Pull--Git Remote completed: 02/21/24
+
+"Visualizing Git" completed: 02/21/24
+Not sure what proof you would like but the end result had the Head at the dev 
+with a merge to the newFeature and the master.
+ 
+"Extra Tutorial" completed: 02/21/24
+The link provided doesn't show extra tutorials but I did extra on the Main Intro sequence
+
+Rubric doesn't ask for screenshots, just date completed!
+
+Questions:
+1. Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 851 bytes | 851.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/ameliam6/assignment2.git
+   f4975e5..69f25b4  master -> master
+
+2. There has been 9 commits. I used git pull origin master to make sure I had the most
+updated version. Then I used git rev-list --count master to count the commits.
+
+3. I used git log -1 README.md to see when it was last modified.
+Date:   Thu Feb 22 02:00:58 2024 -0500 (It was very late).
+
+4. One of the reasons branching is used is because it allows for isolation. So, any of the 
+   developers can try new things without the worry of messing up the main/master code. Another
+   reason would be parallel development. Everyone can write there own code without interrupting
+   eachother and then integrate it to the main branch.
+
+5. Git log is used for the history of the repository, we used it earlier with README.md. 
+   Git status shows the current state and what changes have been made or what is commited or not.
+   So, log shows past/history and status show current state.
+
+6. The command I would use is this: git log --Vehicle.h
+
+7. To see the commits containing the word "file" I would definitely use grep.
+   git log --grep="file"
+
+8. Inheritance is a mechanism that allows for subclasses to "inherit" methods from a base class.
+   An example would be the base class Vehicle and a subclass Car or Bike.
+  
+   Polymorphism is when an object or variable can take on more than one form. So, there can be
+   multiple implementations. So, if there's a function called getSound() if the sound is for a
+   dog or cat, it will output "ruff" or "meow" despite being the same function.
+ 
+   Encapsulation is when attributes and/or methods are bundled together in a class. You can make
+   them private or public so it allows for what can be accessed. To access the private members
+   you use getters and setters.
+
+9. The main difference between the two workflows is that the Dictator and Lieutenants one only
+   has one "dictator" that can actually push onto the blessed repository. Whereas with the 
+   integration manager workflow, each makes pull and push to their own respository.
+
+10. A dictator and lieutenants workflow would benefit a team of 100 developers because it can
+    easily be split up amongst lieutenants and there is parallel progress. With a centralized
+    workflow, that can become overwhelming quite quickly. Also, because the work is checked by
+    these lieutenants first before heading to the dictator to push, more conflicts are resolved
+    in an efficient manner.   
+
+
+
+
+  
