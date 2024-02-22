@@ -1,5 +1,6 @@
-Git Lab Tutorials:
+Amelia McCormack alm20h
 
+Git Lab Tutorials:
 "Learn Git Branching"
 1. Main-Introduction Sequence completed: 02/21/24
 2. Remotes-Push & Pull--Git Remote completed: 02/21/24
@@ -12,6 +13,12 @@ with a merge to the newFeature and the master.
 The link provided doesn't show extra tutorials but I did extra on the Main Intro sequence
 
 Rubric doesn't ask for screenshots, just date completed!
+
+
+Set Up:
+I set up a GitHub account for the capstone, so around 01/20/24. But I forked the repository 
+on 02/21/24.
+
 
 Questions:
 1. Enumerating objects: 9, done.
@@ -64,8 +71,5 @@ Date:   Thu Feb 22 02:00:58 2024 -0500 (It was very late).
     workflow, that can become overwhelming quite quickly. Also, because the work is checked by
     these lieutenants first before heading to the dictator to push, more conflicts are resolved
     in an efficient manner.   
-
-
-
 
   
